@@ -1,0 +1,166 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 125px;
+    flex: 1;
+}
+
+.logo {
+    font-weight: 900;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+
+main {
+    background-color: #2a295a;
+    color: #bbbbbb;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 125px;
+    gap: 72px;
+    flex: 1 1 0;
+}
+
+.hero {
+    font-size: 60px;
+    color: white;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    background-color: lightgrey;
+    color: black;
+    width: 600px;
+    height:200px;
+    max-width: max-content;
+    flex-shrink: 0;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8px 24px;
+    margin: 16px 0px;
+    flex-grow: 0;
+    max-width: 72px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contentTitle {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 48px 0px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 0px 125px;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    flex 1;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.footer {
+    background-color: #2a295a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0px;
+    color: whitesmoke;
+}
+
+.signup {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 125px;
+    border-radius: 25px;
+    margin: 125px;
+    gap: 24px;
+    flex: 0;
+
+}
+
+.signupHero {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.sign-up-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.signup .button {
+    border-color: white;
+    border-width: medium;
+    border-style: solid;
+    flex-shrink: 0;
+}
+
+.testimonials {
+    background-color: lightgray;
+    text-align: left;
+    padding: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    max-width: 600px;
+    font-size: 28px;
+}
+
+.author {
+    font-weight: 700;
+    align-self: flex-end
+}
