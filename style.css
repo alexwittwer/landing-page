@@ -91,7 +91,7 @@ a {
 .cards {
     display: flex;
     flex-direction: column;
-    flex 1;
+    flex: 1;
     align-items: center;
     text-align: center;
 
